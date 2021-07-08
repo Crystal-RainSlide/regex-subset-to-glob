@@ -1,0 +1,23 @@
+{
+  "name": "regex-subset-to-glob",
+  "version": "0.5.0",
+  "description": "Convert a minimal subset of regex to glob.",
+  "keywords": ["regex", "glob"],
+  "homepage": "https://github.com/Crystal-RainSlide/regex-subset-to-glob",
+  "bugs": {
+    "url": "https://github.com/Crystal-RainSlide/regex-subset-to-glob/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "RainSlide",
+    "url": "https://github.com/Crystal-RainSlide"
+  },
+  "main": "regex-subset-to-glob.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Crystal-RainSlide/regex-subset-to-glob.git",
+  }
+  "scripts": {
+    "test": "node test.js"
+  }
+}
