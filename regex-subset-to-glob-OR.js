@@ -8,7 +8,10 @@ Additionally, regex-subset-to-glob-OR (this script) supports regex OR
 by splitting the patterns into different strings:
 	"a|b|c" to ["a", "b", "c"]
 
-But, "a|b|c" to Extended globbing "@(a|b|c)" is not supported.
+But, regex matching groups is not supported,
+so "(a|b|c)" will become ["(a", "b", "c)"];
+
+Also, "a|b|c" to Extended globbing "@(a|b|c)" is not supported.
 */
 
 // getSegmentedPatterns(regexStr: String): [pattern: [sigment: String, ...], ...]
