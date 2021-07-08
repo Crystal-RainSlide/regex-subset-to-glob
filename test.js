@@ -21,7 +21,3 @@ inputs.forEach(testInput(regexSubsetToGlob));
 console.log("");
 console.log("regexSubsetToGlobOR:");
 inputs.forEach(testInput(regexSubsetToGlobOR));
-
-/*
-
-*/
